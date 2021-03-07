@@ -1,8 +1,8 @@
-# Context Template Repository _(context-template)_
+# Ed25519Signature2018 Suite JSON-LD Context _(ed25519-signature-2018-context)_
 
-<!-- [![NPM Version](https://img.shields.io/npm/v/context-template.svg?style=flat-square)](https://npm.im/context-template) -->
+<!-- [![NPM Version](https://img.shields.io/npm/v/ed25519-signature-2018-context.svg?style=flat-square)](https://npm.im/ed25519-signature-2018-context) -->
 
-> A GitHub template repository for JSON-LD contexts.
+> JSON-LD context for the Ed25519Signature2018 suite.
 
 ## Table of Contents
 
@@ -16,16 +16,16 @@
 
 See also (related specs):
 
-*
+* [Ed25519 Signature 2018 Suite Draft Spec](https://w3c-ccg.github.io/lds-ed25519-2018/)
 
 ## Install
 
-Requires Node.js 10+
+Requires Node.js 12+
 
 To install via NPM:
 
 ```
-npm install context-template
+npm install ed25519-signature-2018-context
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ npm install context-template
 ```js
 const {
   contexts, constants, appContextMap, documentLoader
-} = require('context-template');
+} = require('ed25519-signature-2018-context');
 
 // use URL in a JSON-LD context
 const obj = {
@@ -45,7 +45,7 @@ const obj = {
 };
 
 // get context data for a specific context
-const data = contexts.get('https://w3id.org/example/v1');
+const data = contexts.get('https://w3id.org/security/ed25519-signature-2018/v1');
 // ...
 ```
 
