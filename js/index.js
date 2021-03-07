@@ -3,7 +3,7 @@
  */
 'use strict';
 
-const context = require('../contexts/example-v1.json');
+const context = require('../contexts/ed25519-signature-2018-v1.json');
 const constants = require('./constants');
 const {documentLoader} = require('./documentLoader');
 const {CONTEXT_URL, CBORLD_VALUE} = constants;
