@@ -2,7 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/ed25519-signature-2018-context.svg)](https://npm.im/ed25519-signature-2018-context)
 
-> JSON-LD context for the Ed25519Signature2018 suite.
+> JSON-LD Context for the Ed25519 2018 Cryptosuite.
 
 ## Table of Contents
 
@@ -43,6 +43,10 @@ const obj = {
   ],
   // ...
 };
+
+// Codec term map value for CBOR-LD
+constants.CBORLD_VALUE
+// 0x13
 
 // get context data for a specific context
 const data = contexts.get('https://w3id.org/security/ed25519-signature-2018/v1');
