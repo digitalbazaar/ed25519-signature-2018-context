@@ -16,9 +16,6 @@
         },
         "publicKeyBase58": {
           "@id": "https://w3id.org/security#publicKeyBase58"
-        },
-        "privateKeyBase58": {
-          "@id": "https://w3id.org/security#privateKeyBase58"
         }
       }
     },
