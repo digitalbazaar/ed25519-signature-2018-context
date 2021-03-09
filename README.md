@@ -1,6 +1,6 @@
 # Ed25519Signature2018 Suite JSON-LD Context _(ed25519-signature-2018-context)_
 
-<!-- [![NPM Version](https://img.shields.io/npm/v/ed25519-signature-2018-context.svg?style=flat-square)](https://npm.im/ed25519-signature-2018-context) -->
+[![NPM Version](https://img.shields.io/npm/v/ed25519-signature-2018-context.svg)](https://npm.im/ed25519-signature-2018-context)
 
 > JSON-LD context for the Ed25519Signature2018 suite.
 
