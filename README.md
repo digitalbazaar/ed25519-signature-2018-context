@@ -50,7 +50,7 @@ constants.CBORLD_VALUE
 // 0x13
 
 // get context data for a specific context
-const data = contexts.get('https://w3id.org/security/ed25519-signature-2018/v1');
+const data = contexts.get('https://w3id.org/security/suites/ed25519-2018/v1');
 // ...
 ```
 
