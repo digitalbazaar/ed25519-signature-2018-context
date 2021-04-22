@@ -1,6 +1,6 @@
 # ed25519-signature-2018-context ChangeLog
 
-## 1.1.0 -
+## 1.1.0 - 2021-04-22
 
 ### Added
 - Add definition for the `proof` term.
