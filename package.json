@@ -1,8 +1,8 @@
 {
   "name": "ed25519-signature-2018-context",
   "version": "1.0.2-0",
-  "description": "JSON-LD Context for the Ed25519 2018 Cryptosuite",
-  "main": "js",
+  "description": "JSON-LD Context for the Ed25519 2018 Cryptosuite.",
+  "main": "js/index.js",
   "module": "./dist/context.esm.js",
   "files": [
     "contexts",
@@ -51,10 +51,11 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "build": "npm run clean && webpack && rollup -c",
-    "clean": "rm -rf dist/*",
+    "build": "npm run clean && npm run serialize && webpack && rollup -c",
+    "clean": "rm -rf dist/* && rm -rf contexts/*.jsonld",
     "lint": "eslint js test",
     "prepare": "npm run build",
+    "serialize": "node bin/serialize.js",
     "test": "npm run lint && npm run build && npm run test-node && npm run test-karma",
     "test-karma": "karma start test/karma.conf.js",
     "test-node": "cross-env NODE_ENV=test mocha --preserve-symlinks test/**/*.spec.js"

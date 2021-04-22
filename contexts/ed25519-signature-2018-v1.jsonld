@@ -3,7 +3,6 @@
     "id": "@id",
     "type": "@type",
     "@protected": true,
-
     "Ed25519VerificationKey2018": {
       "@id": "https://w3id.org/security#Ed25519VerificationKey2018",
       "@context": {
